@@ -1,16 +1,47 @@
-# Introduction to Git and GitHub
+# Simple Interest Calculator
 
-## Simple Interest Calculator
+Este projeto contém um script em Bash para calcular juros simples com base nos dados fornecidos pelo usuário.
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+## 📌 Fórmula utilizada
 
-```
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
-Output
-   simple interest = p*t*r
-```
+O cálculo de juros simples é feito utilizando a seguinte fórmula:
 
-_© 2022 XYZ, Inc._
+J = (P × R × T) / 100
+
+Onde:
+- P = Principal (valor inicial)
+- R = Taxa de juros (% por período)
+- T = Tempo (número de períodos)
+
+## ⚙️ Como funciona
+
+O script solicita ao usuário:
+1. O valor principal
+2. A taxa de juros
+3. O tempo
+
+Com base nesses dados, ele calcula e exibe o valor do juro simples.
+
+## ▶️ Como executar
+
+Dê permissão de execução:
+
+```bash
+chmod +x simple-interest.sh
+
+Execute o script:
+
+./simple-interest.sh
+🧪 Exemplo de uso
+
+Entrada:
+
+Digite o valor principal: 1000
+Digite a taxa de juros (% ao período): 5
+Digite o tempo (em períodos): 2
+
+Saída:
+
+O juro simples é: 100.00
+📁 Arquivo principal
+simple-interest.sh → Script Bash que realiza o cálculo
