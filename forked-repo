@@ -1,3 +1,4 @@
+bruno@D1362JW3:~/NetBeansProjects/temp/coursera/mcino-Introduction-to-Git-and-GitHub$ curl https://api.github.com/repos/Brunomcarvalho89/mcino-Introduction-to-Git-and-GitHub
 {
   "id": 1226788421,
   "node_id": "R_kgDOSR9ORQ",
